@@ -21,7 +21,7 @@ import javax.jms.ObjectMessage;
     @ActivationConfigProperty(propertyName = "destinationLookup",
             propertyValue = "java/Topico"),
     @ActivationConfigProperty(propertyName = "destinationType",
-            propertyValue = "javax.jms.Queue")
+            propertyValue = "javax.jms.Topic")
 })
 public class ConsTProd implements MessageListener {
 
